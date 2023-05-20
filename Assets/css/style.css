@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Panthera';
+    src: url(../Police/PantheraRegular-MVZ9J.ttf);
+}
+
+nav>
+.icon-home{
+    margin-top: 15px;
+    display: flex;
+}
