@@ -1,10 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @font-face {
     font-family: 'Panthera';
     src: url(../Police/PantheraRegular-MVZ9J.ttf);
 }
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../Police/BEYNO/BEYNO.ttf);
+}
 
-nav>
-.icon-home{
-    margin-top: 15px;
+:root {
+    --write-color : #FFFFFF;
+    --write-light : #F2CEF2;
+    --gradient-write: #EDDEBF;
+    --gradient-purple: #3D2DA6;
+    --gray-color : #9E91B7;
+    --blue-color : #07338C;
+    --gradient-blue: #021740;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../Illustrations_+_Logo/arrière_plan.png);
+    background-color: var(--gradient-blue);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+p {
+    font-size: 16px;
+    font-family: 'Cantarell', sans-serif;
+    color: var(--write-light);
+}
+h2 {
+    font-size: 32px;
+    font-family: 'BEYNO', sans-serif;
+    color: var(--gray-color);
+
+}
+
+/*Design de la navigation */
+
+.icon-home {
+    text-align: left;
+    margin-left: 11%;
+}
+
+.titre-home {
     display: flex;
+    justify-content: center;
+    font-family: 'BEYNO', sans-serif;
+    color: var(--write-light);
+    
+}
+
+nav , a{
+    padding: 10px;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+
+/* Design de la section hero */
+
+.fond {
+    margin-left: 42%;
+}
+
+.titre-pather {
+    width: 28%;
+    text-align: left;
+    margin-left: 99px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+.titre-pather>h1 {
+    font-size: 68px;
+    font-family: 'Panthera', sans-serif;
+    color: var(--gray-color);
+}
+
+.titre-pather>h2 {
+    font-family: 'Beyno', sans-serif;
+    font-size: 43px;
+    margin-bottom: 35px;
+}
+
+.titre-pather>p {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 16px;
+
+}
+
+/* section scroll */
+
+.icon_scroll {
+    position: fixed;
+    top: 45%;
+    transform: translate(-50, -50%);
+    width: 15%;
+}
+.scroll {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* Design de la section  acteur */
+
+.sld_2 {
+    position: relative;
+    background-color: var(--gradient-blue); /* ajustez la couleur du fond */
+    width: 80%;
+    
+}
+
+.sld_2 img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: auto;
+    object-fit: cover;
+}
+
+.slide_1 {
+    background-color: var(--gradient-blue);
+    position: relative;
+    width: 80%;
+}
+
+.slide_1 img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: auto;
+    object-fit: cover;
+}
+
+.slider {
+    display: flex;
+    width: 100%;
+    
+
+}
+.slider P {
+    width: 50%;
+}
+
+.slider h2,
+.slider p {
+    margin: 0;
+    padding: 15px;
+}
+
+.slider a {
+    margin-top: 10px;
+    color: var(--write-color);
+    text-decoration: none;
+}
+.sect-acteur {
+    margin-left: 13%;
+}
+
+/* Design de l'article et apropos de l'auteur */
+
+.article {
+    margin-left: 16%;
+    margin-top: 80px;
+    width: 37%;
+}
+.article h2 {
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+/* Desing de la section apropos de hero */
+.apropos {
+    border-top-right-radius: ;
 }
