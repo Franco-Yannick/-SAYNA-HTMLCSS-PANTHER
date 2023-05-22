@@ -3,21 +3,23 @@
     font-family: 'Panthera';
     src: url(../Police/PantheraRegular-MVZ9J.ttf);
 }
+
 @font-face {
     font-family: 'BEYNO';
     src: url(../Police/BEYNO/BEYNO.ttf);
 }
 
 :root {
-    --write-color : #FFFFFF;
-    --write-light : #F2CEF2;
+    --write-color: #FFFFFF;
+    --write-light: #F2CEF2;
     --gradient-write: #EDDEBF;
     --gradient-purple: #3D2DA6;
-    --gray-color : #9E91B7;
-    --blue-color : #07338C;
+    --gray-color: #9E91B7;
+    --blue-color: #07338C;
     --gradient-blue: #021740;
-    
+    --color-black: #000;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -29,19 +31,20 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: auto;
-
 }
+
 p {
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Cantarell', sans-serif;
     color: var(--write-light);
 }
+
 h2 {
     font-size: 32px;
     font-family: 'BEYNO', sans-serif;
     color: var(--gray-color);
-
 }
+
 
 /*Design de la navigation */
 
@@ -55,12 +58,11 @@ h2 {
     justify-content: center;
     font-family: 'BEYNO', sans-serif;
     color: var(--write-light);
-    
 }
 
-nav , a{
+nav,
+a {
     padding: 10px;
-    
 }
 
 nav {
@@ -70,6 +72,7 @@ nav {
     margin: 30px;
     margin-bottom: 10px;
 }
+
 
 /* Design de la section hero */
 
@@ -85,8 +88,6 @@ nav {
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
-
-    
 }
 
 .titre-pather>h1 {
@@ -104,29 +105,70 @@ nav {
 .titre-pather>p {
     font-family: 'Cantarell', sans-serif;
     font-size: 16px;
-
 }
+
 
 /* section scroll */
 
 .icon_scroll {
+    margin-top: 0%;
+    padding: 0%;
     position: fixed;
-    top: 45%;
+    display: flex;
+    margin-left: 4.5vw;
+}
+
+.icon_scroll div {
+    margin-right: px;
+}
+
+.scroll-border_2>ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 10px;
+}
+
+.scroll-2 {
+    border-left: 3px solid var(--gradient-write);
+    height: 58vh;
+    padding-top: 0;
+}
+
+.scroll-border {
+    border-left: 3px solid var(--gradient-write);
+    height: 40vh;
+    margin: 29px;
+    margin-top: 0;
+}
+
+.scroll {
+    position: fixed;
+    align-content: center;
+    margin-top: 0;
+}
+
+
+/* .icon_scroll {
+    position: fixed;
+    top: 30;
     transform: translate(-50, -50%);
     width: 15%;
 }
+
 .scroll {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
+} */
+
+
 /* Design de la section  acteur */
 
 .sld_2 {
     position: relative;
-    background-color: var(--gradient-blue); /* ajustez la couleur du fond */
+    background-color: var(--gradient-blue);
+    /* ajustez la couleur du fond */
     width: 80%;
-    
 }
 
 .sld_2 img {
@@ -154,9 +196,8 @@ nav {
 .slider {
     display: flex;
     width: 100%;
-    
-
 }
+
 .slider P {
     width: 50%;
 }
@@ -172,9 +213,11 @@ nav {
     color: var(--write-color);
     text-decoration: none;
 }
+
 .sect-acteur {
     margin-left: 13%;
 }
+
 
 /* Design de l'article et apropos de l'auteur */
 
@@ -182,13 +225,106 @@ nav {
     margin-left: 16%;
     margin-top: 80px;
     width: 37%;
+    text-align: justify;
 }
+
 .article h2 {
     margin-top: 45px;
     margin-bottom: 30px;
 }
 
+
 /* Desing de la section apropos de hero */
+
+.corps {
+    display: flex;
+    align-items: center;
+}
+
 .apropos {
-    border-top-right-radius: ;
+    margin-left: 130px;
+    margin-top: 25%;
+}
+
+.descriptions {
+    background-color: var(--write-color);
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 20vw;
+    text-align: left;
+    padding-top: 20vw;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: var(--gradient-blue);
+}
+
+.des-text {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.descriptions h2 {
+    text-align: center;
+    font-family: 'Contarell', sans-serif;
+    color: var(--color-black);
+}
+
+.btn-apropos p {
+    background-color: var(--blue-color);
+    margin-right: 15px;
+    padding: 10px 5px;
+    border-radius: 3px;
+}
+
+.btn-apropos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.btn-apropos p a {
+    color: var(--write-light);
+    font-family: 'Contarell', sans-serif;
+    font-size: 10px;
+    align-items: center;
+}
+
+.des-text p span {
+    font-weight: bold;
+}
+
+.des-text p {
+    font-size: 12px;
+    color: var(--gradient-blue);
+}
+
+.des-text span {
+    font-size: 18px;
+}
+
+.image {
+    color: var(--gradient-purple);
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: -38vh;
+}
+
+.image_2 {
+    margin-top: 250px;
+}
+
+
+/* Design de la formulaire */
+
+.foot {
+    background-color: var(--write-color);
+    border-radius: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20vh;
 }
