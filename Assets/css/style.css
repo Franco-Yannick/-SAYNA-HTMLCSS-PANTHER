@@ -222,9 +222,9 @@ nav {
 /* Design de l'article et apropos de l'auteur */
 
 .article {
-    margin-left: 16%;
+    margin-left: 10%;
     margin-top: 80px;
-    width: 37%;
+    width: 35%;
     text-align: justify;
 }
 
@@ -313,18 +313,105 @@ nav {
     text-align: center;
     margin-bottom: -38vh;
 }
-
+/*
 .image_2 {
     margin-top: 250px;
-}
+} */
+
 
 
 /* Design de la formulaire */
 
 .foot {
-    background-color: var(--write-color);
-    border-radius: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding: 20vh;
+    background-image: url(../Illustrations_+_Logo/Accueil/Pantherhome7.png);
+   padding-bottom: 250px;
+   background-repeat: no-repeat;
 }
+
+form {
+    background: linear-gradient(to bottom,rgba(250));
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20vh;
+    padding-bottom: 150px;
+}
+
+/* Design de la partie footer */
+
+footer {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20vh;
+    display: flex;
+    margin-top: 0;
+  }
+  
+  .nav-footer {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-footer {
+    display: flex;
+    position: absolute;
+  }
+  .icon-footer img {
+    width: 20%;
+  }
+  .icon-foot {
+    margin-left: 25%;
+  }
+  
+  .icon-foot h3 {
+    margin-bottom: 12px;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 28px;
+    color: var(--write-color);
+  }
+  
+  .icon-foot a {
+    margin-right: 9px;
+  }
+  .icon-foot img {
+    width: 10%;
+    padding: 15px;
+  }
+  .pied { 
+    display: flex;
+}
+/* Design de la partie wakanda */
+@font-face {
+    font-family: 'Wakanda forever';
+    src: url(../Police/WakandaForever-Regular.ttf);
+}
+.sect-wakanda {
+    display: flex;
+    margin-top: 50%;
+}
+
+.nav-wakanda h1 {
+    font-family: 'BEYNO', sans-serif;
+    font-size: 62px;
+    color: var(--write-light);
+}
+
+.nav-wakanda p{
+    text-align: justify;
+    width: 25%;
+}
+.nav-wakanda h2 {
+    font-family: 'Wakanda forever', sans-serif;
+    font-size: 43px;
+}
+.nav-wakanda {
+    margin-left: 10%;
+   
+}
+
+.entete {
+    background-image: url(../Illustrations_+_Logo/Wakanda/Pantherwakanda1.png);
+    
+    background-repeat: no-repeat;
+}
+
