@@ -9,7 +9,7 @@
     src: url(../Police/BEYNO/BEYNO.ttf);
 }
 
-:root {
+ :root {
     --write-color: #FFFFFF;
     --write-light: #F2CEF2;
     --gradient-write: #EDDEBF;
@@ -44,8 +44,6 @@ h2 {
     font-family: 'BEYNO', sans-serif;
     color: var(--gray-color);
 }
-
-
 /*Design de la navigation */
 
 .icon-home {
@@ -72,8 +70,6 @@ nav {
     margin: 30px;
     margin-bottom: 10px;
 }
-
-
 /* Design de la section hero */
 
 .fond {
@@ -106,8 +102,6 @@ nav {
     font-family: 'Cantarell', sans-serif;
     font-size: 16px;
 }
-
-
 /* section scroll */
 
 .icon_scroll {
@@ -146,22 +140,18 @@ nav {
     align-content: center;
     margin-top: 0;
 }
-
-
 /* .icon_scroll {
-    position: fixed;
-    top: 30;
-    transform: translate(-50, -50%);
-    width: 15%;
+position: fixed;
+top: 30;
+transform: translate(-50, -50%);
+width: 15%;
 }
 
 .scroll {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+display: flex;
+align-items: center;
+flex-direction: column;
 } */
-
-
 /* Design de la section  acteur */
 
 .sld_2 {
@@ -217,8 +207,6 @@ nav {
 .sect-acteur {
     margin-left: 13%;
 }
-
-
 /* Design de l'article et apropos de l'auteur */
 
 .article {
@@ -232,8 +220,6 @@ nav {
     margin-top: 45px;
     margin-bottom: 30px;
 }
-
-
 /* Desing de la section apropos de hero */
 
 .corps {
@@ -315,28 +301,24 @@ nav {
 }
 /*
 .image_2 {
-    margin-top: 250px;
+margin-top: 250px;
 } */
-
-
-
 /* Design de la formulaire */
 
 .foot {
     background-image: url(../Illustrations_+_Logo/Accueil/Pantherhome7.png);
-   padding-bottom: 250px;
-   background-repeat: no-repeat;
+    padding-bottom: 250px;
+    background-repeat: no-repeat;
 }
 
 form {
-    background: linear-gradient(to bottom,rgba(250));
+    background: linear-gradient(to bottom, rgba(250));
     border-radius: 5px;
     margin-left: 500px;
     margin-right: 500px;
     padding: 20vh;
     padding-bottom: 150px;
 }
-
 /* Design de la partie footer */
 
 footer {
@@ -345,46 +327,62 @@ footer {
     padding: 20vh;
     display: flex;
     margin-top: 0;
-  }
-  
-  .nav-footer {
+}
+
+.nav-footer {
     display: flex;
     align-items: center;
-  }
+}
 
-  .icon-footer {
+.icon-footer {
     display: flex;
     position: absolute;
-  }
-  .icon-footer img {
+}
+
+.icon-footer img {
     width: 20%;
-  }
-  .icon-foot {
+}
+
+.icon-foot {
     margin-left: 25%;
-  }
-  
-  .icon-foot h3 {
+}
+
+.icon-foot h3 {
     margin-bottom: 12px;
     font-family: 'Cantarell', sans-serif;
     font-size: 28px;
     color: var(--write-color);
-  }
-  
-  .icon-foot a {
+}
+
+.icon-foot a {
     margin-right: 9px;
-  }
-  .icon-foot img {
+}
+
+.icon-foot img {
     width: 10%;
     padding: 15px;
-  }
-  .pied { 
+}
+
+.pied {
     display: flex;
 }
+/* design de la video */
+
+.player {
+    position: absolute;
+    height: auto;
+    width: 80px;
+    cursor: pointer;
+    padding-left: 270px;
+    padding-top: 135px;
+}
 /* Design de la partie wakanda */
+
 @font-face {
     font-family: 'Wakanda forever';
     src: url(../Police/WakandaForever-Regular.ttf);
 }
+
 .sect-wakanda {
     display: flex;
     margin-top: 50%;
@@ -396,22 +394,101 @@ footer {
     color: var(--write-light);
 }
 
-.nav-wakanda p{
+.nav-wakanda p {
     text-align: justify;
     width: 25%;
 }
+
 .nav-wakanda h2 {
     font-family: 'Wakanda forever', sans-serif;
     font-size: 43px;
 }
+
 .nav-wakanda {
-    margin-left: 10%;
-   
+    margin-left: 375px;
+    padding-top: 500px;
+    margin-bottom: 100px;
 }
 
 .entete {
     background-image: url(../Illustrations_+_Logo/Wakanda/Pantherwakanda1.png);
-    
     background-repeat: no-repeat;
+    width: 100%;
 }
 
+.BODY {
+    background-image: url(../Illustrations_+_Logo/Wakanda/Pantherwakanda2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+/* Design de la partie enigme */
+
+.img-enigme {
+    width: 50%;
+}
+
+.body-enigme {
+    display: flex;
+}
+
+.body-enigme p {
+    text-align: justify;
+    width: 450px;
+    position: absolute;
+    top: 99%;
+    margin-left: 450px;
+}
+
+.petit-text {
+    margin-left: -220px;
+}
+
+.petit-text .icon-2 {
+    position: absolute;
+    top: 80%;
+    margin-left: 315px;
+}
+
+.petit-text .icon-3 {
+    position: absolute;
+    top: 130%;
+    margin-left: 260px;
+}
+
+.petit-text h1 {
+    font-family: 'BEYNO', sans-serif;
+    color: var(--gray-color);
+    position: absolute;
+    top: 69%;
+    margin-left: 400px;
+    font-size: 65px;
+    align-items: center;
+}
+
+.citation-enigme p {
+    font-family: 'Wakanda forever', sans-serif;
+    font-size: 48px;
+    margin-left: 320px;
+    display: flex;
+    width: 60%;
+    padding: 15px;
+}
+
+.alphabet {
+    display: flex;
+    margin: 320px;
+}
+
+.liste li {
+    display: flex;
+    color: var(--write-color);
+    flex-direction: row;
+}
+
+.liste ul {
+    list-style-type: none;
+}
+
+.liste span {
+    font-family: 'Wakanda forever', sans-serif;
+}
