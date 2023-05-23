@@ -305,19 +305,52 @@ margin-top: 250px;
 } */
 /* Design de la formulaire */
 
-.foot {
+/*.foot {
     background-image: url(../Illustrations_+_Logo/Accueil/Pantherhome7.png);
     padding-bottom: 250px;
     background-repeat: no-repeat;
+} */
+.foot-form {
+    display: block;
+    font-family: 'Cantarell regular';
+    color: black;
+    border-radius: 22%;
+    background: linear-gradient(to bottom, rgba(2555, 255, 255), rgba(255, 255, 255, 0));
+    text-align: center;
+    margin-top: 10vh;
+    padding: 10vh 5vh;
+    width: 45%;
+    height:50%;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: url(../Illustrations_+_Logo/Accueil/Pantherhome7.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.foot-form form>* {
+
+    border: 1px solid #021740;
+    background: none;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    width: 40vw;
+    height: auto;
+    align-items: center;
 }
 
 form {
     background: linear-gradient(to bottom, rgba(250));
-    border-radius: 5px;
-    margin-left: 500px;
-    margin-right: 500px;
-    padding: 20vh;
-    padding-bottom: 150px;
+    border-radius: 3px;
+    margin-left: -55px;
+    margin-right: -55px;
+    padding: 10vh;
+    padding-bottom: 20px;
 }
 /* Design de la partie footer */
 
@@ -326,7 +359,7 @@ footer {
     margin-right: 50px;
     padding: 20vh;
     display: flex;
-    margin-top: 0;
+    margin-top: 5%;
 }
 
 .nav-footer {
@@ -337,14 +370,15 @@ footer {
 .icon-footer {
     display: flex;
     position: absolute;
+    margin-left: 65px;
 }
 
 .icon-footer img {
-    width: 20%;
+    width: 40%;
 }
 
 .icon-foot {
-    margin-left: 25%;
+    margin-left: 45%;
 }
 
 .icon-foot h3 {
@@ -365,6 +399,27 @@ footer {
 
 .pied {
     display: flex;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 380px;
+    
+}
+.pied ul {
+    display: flex;
+    color: var(--write-color);
+    margin-right: 25px;
+    
+}
+
+.app h3{
+    color: var(--write-color);
+    margin-top: 10px;
+}
+
+.app {
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 460px;
 }
 /* design de la video */
 
@@ -423,7 +478,7 @@ footer {
 }
 /* Design de la partie enigme */
 
-.img-enigme {
+.img-enigme img{
     width: 50%;
 }
 
@@ -431,7 +486,10 @@ footer {
     display: flex;
 }
 
-.body-enigme p {
+
+
+/*
+.enigme-texte p {
     text-align: justify;
     width: 450px;
     position: absolute;
@@ -443,9 +501,9 @@ footer {
     margin-left: -220px;
 }
 
-.petit-text .icon-2 {
+ .icon-2 {
     position: absolute;
-    top: 80%;
+    margin-top: 40%;
     margin-left: 315px;
 }
 
@@ -454,15 +512,29 @@ footer {
     top: 130%;
     margin-left: 260px;
 }
-
+*/
 .petit-text h1 {
     font-family: 'BEYNO', sans-serif;
     color: var(--gray-color);
     position: absolute;
-    top: 69%;
-    margin-left: 400px;
-    font-size: 65px;
-    align-items: center;
+    margin-top: 30%;
+    margin-left: -250px;
+    font-size: 58px;
+    width: 300;
+    
+
+}
+.icon_2 {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: -400px;
+
+}
+.petit-text p {
+    position: absolute;
+    width: 450px;
+    margin-top: 43%;
+    margin-left: -200px;
 }
 
 .citation-enigme p {
@@ -476,7 +548,7 @@ footer {
 
 .alphabet {
     display: flex;
-    margin: 320px;
+    margin: 420px;
 }
 
 .liste li {
